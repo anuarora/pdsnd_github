@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+11th November 2020
 
 ### Project Title
-Replace the Project Title
+Bicycle sharing system
 
 ### Description
-Describe what your project is about and what it does
+This project provides functionality to share bicycles to individuals on a short term basis 
+for a price and track trip duration, location specifics and user information
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity
