@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+from collections import Counter
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -60,7 +61,8 @@ def time_stats(df):
     start_time = time.time()
 
     # display the most common month
-
+    common_month = Counter(df.month).most_common(1)[0][0]
+    print("Most common month is:", common_month)
 
     # display the most common day of week
 
